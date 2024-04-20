@@ -8,6 +8,9 @@ Before do
     @checkout = CheckoutPage.new
     @order = OrderPage.new
     @popup = Popup.new
-    
+end
 
+After do
+    screenshot = page.save_screenshot("logs/screenshots/temp.png")
+    attach(screenshot, "image/png", "Screenshot")
 end
