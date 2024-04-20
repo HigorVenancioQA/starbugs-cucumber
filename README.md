@@ -23,5 +23,3 @@ bundle install
 bundle exec cucumber
 ```
 
-<hr>
-Curso disponível em https://qaxperience.com
